@@ -9,10 +9,7 @@ class Solution {
             list.add(Integer.parseInt(splitArray[i]));
         }
 
-        for(int element : list)
-        {
-            System.out.println(element);
-        }
+       
         if(list.isEmpty())
         {
             return true;
