@@ -24,7 +24,7 @@ class Solution {
             head=head.next;
             headSecond=headSecond.next;
         }
-        reverseList(headSecond);
+        reverseList(reverseHead);
         if(head==null || headSecond==null)
         {
             return true;
