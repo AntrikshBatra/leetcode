@@ -15,7 +15,7 @@ class Solution {
         ListNode reverseHead=headSecond;
 
         //compare both the halves
-        while(head!=null && headSecond!=null)
+        while(headSecond!=null)
         {
             if(head.val!=headSecond.val)
             {
